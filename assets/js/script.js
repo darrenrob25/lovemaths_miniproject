@@ -111,6 +111,9 @@ function incrementWrongAnswer () {
     document.getElementById("incorrect").innerText = ++oldScore;
 }
 
+/**
+ * Functions for each question type.
+ */
 function displayAdditionQuestion (operand1, operand2) {
 
     document.getElementById(`operand1`).textContent = operand1;
